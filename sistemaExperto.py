@@ -1,8 +1,3 @@
-class Sintoma:
-    def __init__(self, nombre, descripcion):
-        self.nombre = nombre
-        self.descripcion = descripcion
-
 class Enfermedad:
     def __init__(self, nombre, sintomas):
         self.Nombre = nombre
@@ -77,5 +72,3 @@ if __name__ == "__main__":
     listaTratamientos = []
     listaSintomas = []
     menu()
-
-    
